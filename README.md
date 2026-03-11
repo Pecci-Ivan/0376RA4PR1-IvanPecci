@@ -12,8 +12,6 @@
 
 document.querySelector("#titol-principal").style.color = "blue";
 
-2. **Canvi de contingut:** Mostra "Hola Món" en un paragraf `<p>`. 
-
  document.getElementById("paragraf-hola").textContent = "Hola Món";
 
 3. **Modificar atributts:** Canvia la imatge amb `serAttribute`.
