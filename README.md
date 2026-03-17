@@ -6,30 +6,38 @@
 - README.md
 
 ## Exercicis RAEx7
-`````javascript
+
 1. **Selecció d’elements:** Canvia el color del `<h1>` quan la pàgina carregui.
+```javascript
 
 document.querySelector("#titol-principal").style.color = "blue";
+```
 
 2. **Canvi de contingut:** Mostra "Hola Món" en un paràgraf
+```javascript
 
  document.getElementById("paragraf-hola").textContent = "Hola Món";
+ ```
 
 3. **Modificar atributts:** Canvia la imatge amb `serAttribute`.
+```javascript
 
  document.getElementById("imatge-canviant").setAttribute("src", "imatge.jpg");
+```
 
 4. **Estils:** Canvia el color de fons d´una caixa amb `backgroundColor`.
+```javascript
 
  document.getElementById("caixa-estil").addEventListener("click", function(){
-    this.style.backgroundColor = "lightblue";
-});
+    this.style.backgroundColor = "lightblue"});
+ ´´´
 
-5. **Classes:** Afegir o treure una classe amb classList.toggle.
+5. **Classes:** Afegir o treure una classe amb classList.toggle. 
+```javascript
 
 document.getElementById("boto-toggle").addEventListener("click", function(){
-    document.getElementById("text-classe").classList.toggle("actiu");
-});
+    document.getElementById("text-classe").classList.toggle("actiu")});
+´´´
 
 6. **Esdeveniments:** Mostra una alerta en fer clic a un botó.
 
