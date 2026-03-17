@@ -6,9 +6,8 @@
 - README.md
 
 ## Exercicis RAEx7
-
-1. **Selecció d’elements:** Canvia el color del `<h1>` quan la pàgina carregui.
 `````javascript
+1. **Selecció d’elements:** Canvia el color del `<h1>` quan la pàgina carregui.
 
 document.querySelector("#titol-principal").style.color = "blue";
 
@@ -51,3 +50,4 @@ document.getElementById("boto-afegir").addEventListener("click", function(){
 document.getElementById("element-eliminar").addEventListener("click", function(){
     this.remove();
 });
+
