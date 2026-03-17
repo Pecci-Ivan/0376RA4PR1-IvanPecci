@@ -30,32 +30,32 @@ document.querySelector("#titol-principal").style.color = "blue";
 
  document.getElementById("caixa-estil").addEventListener("click", function(){
     this.style.backgroundColor = "lightblue";});
- ´´´
+```
 
 5. **Classes:** Afegir o treure una classe amb classList.toggle. 
-
+```javascript
 document.getElementById("boto-toggle").addEventListener("click", function(){
     document.getElementById("text-classe").classList.toggle("actiu");
     });
-
+```
 
 6. **Esdeveniments:** Mostra una alerta en fer clic a un botó.
-
+```javascript
 document.getElementById("boto-alerta").addEventListener("click", function(){
     alert("Has clicat el botó!");
 });
-
+```
 7. **Crear i afegir elements:** Afegir un nou `<li>` a la llista.
-
+```javascript
 document.getElementById("boto-afegir").addEventListener("click", function(){
     let li = document.createElement("li");
     li.textContent = "Nou producte";
     document.getElementById("llista-compra").appendChild(li);
 });
-
+```
 8. **Eliminar elements:** Fer que un element desaparegui al fer clic.
-
+```javascript
 document.getElementById("element-eliminar").addEventListener("click", function(){
     this.remove();
 });
-
+```
