@@ -29,15 +29,15 @@ document.querySelector("#titol-principal").style.color = "blue";
 ```javascript
 
  document.getElementById("caixa-estil").addEventListener("click", function(){
-    this.style.backgroundColor = "lightblue"});
+    this.style.backgroundColor = "lightblue";});
  ´´´
 
 5. **Classes:** Afegir o treure una classe amb classList.toggle. 
-```javascript
 
 document.getElementById("boto-toggle").addEventListener("click", function(){
-    document.getElementById("text-classe").classList.toggle("actiu")});
-´´´
+    document.getElementById("text-classe").classList.toggle("actiu");
+    });
+
 
 6. **Esdeveniments:** Mostra una alerta en fer clic a un botó.
 
