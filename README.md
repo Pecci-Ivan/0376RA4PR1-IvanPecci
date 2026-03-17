@@ -8,11 +8,12 @@
 ## Exercicis RAEx7
 
 1. **Selecció d’elements:** Canvia el color del `<h1>` quan la pàgina carregui.
-```javascript´´´´
+`````javascript
 
 document.querySelector("#titol-principal").style.color = "blue";
 
-02. **Canvi de contingut:**  Mostra "Hola Món" en un paràgra
+2. **Canvi de contingut:** Mostra "Hola Món" en un paràgraf
+
  document.getElementById("paragraf-hola").textContent = "Hola Món";
 
 3. **Modificar atributts:** Canvia la imatge amb `serAttribute`.
